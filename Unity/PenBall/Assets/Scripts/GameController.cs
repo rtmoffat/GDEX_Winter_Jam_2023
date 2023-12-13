@@ -25,6 +25,11 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene("Level_1",LoadSceneMode.Single);
         print("starting game");
     }
+    public void testLevel()
+    {
+        print("loading test level");
+        SceneManager.LoadScene("Test_Level", LoadSceneMode.Single);
+    }
     public void quitGame()
     {
         print("quitting!");
