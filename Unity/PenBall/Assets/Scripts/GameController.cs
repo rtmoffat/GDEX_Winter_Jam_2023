@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using UnityEditor.AnimatedValues;
+//using UnityEditor.AnimatedValues;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,10 +11,13 @@ public class GameController : MonoBehaviour
     Rigidbody2D m_RigidBody2D;
     public Camera m_Camera;
     
-    public GameObject leftFlipper_PF;
-    public GameObject rightFlipper_PF;
-    private float pivotOffset=10.0f;
- 
+    public GameObject leftFlipperRotationContainer_obj;
+    public GameObject rightFlipperRotationContainer_obj;
+    private Vector3 leftFlipperRotationOriginalPosition_V3;
+    private Vector3 rightFlipperRotationOriginalPosition_V3;
+    private Vector3 flipperRotation_V3=new Vector3(0f, 0f, 50.0f);
+    private float flipperRotationSpeed=5.0f;
+
     private Quaternion m_Camera_Rotation;
     // Start is called before the first frame update
     void Start()
@@ -39,11 +42,14 @@ public class GameController : MonoBehaviour
         }
         //Keep camera initial rotation
         m_Camera.transform.rotation = m_Camera_Rotation;
-        if (Input.GetKey(KeyCode.LeftArrow)) {
+        if (Input.GetKey(KeyCode.LeftArrow) & (leftFlipperRotationOriginalPosition_V3.z >= leftFlipperRotationContainer_obj.transform.rotation.eulerAngles.z))
+            {
             print("Left flipper pressed");
-            Vector3 pivot = new Vector3();
-            pivot.z = 40.0f;
-            leftFlipper_PF.transform.Rotate(pivot, pivotOffset); 
+            
+            leftFlipperRotationContainer_obj.transform.Rotate(flipperRotation_V3 * Time.deltaTime*flipperRotationSpeed);
+        }
+        if (Input.GetKeyUp(KeyCode.LeftArrow) & (leftFlipperRotationOriginalPosition_V3.z < leftFlipperRotationContainer_obj.transform.rotation.eulerAngles.z)) {
+            leftFlipperRotationContainer_obj.transform.Rotate(leftFlipperRotationOriginalPosition_V3 * Time.deltaTime * flipperRotationSpeed);
         }
     }
     private void LateUpdate()
