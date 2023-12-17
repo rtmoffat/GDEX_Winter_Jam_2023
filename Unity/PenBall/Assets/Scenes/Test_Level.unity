@@ -420,7 +420,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6662760712513753879, guid: a92815a8b65ad484898d550fec97bc10, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1475633489}
   m_SourcePrefab: {fileID: 100100000, guid: a92815a8b65ad484898d550fec97bc10, type: 3}
 --- !u!4 &561600353 stripped
 Transform:
@@ -559,7 +562,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6662760712513753879, guid: a92815a8b65ad484898d550fec97bc10, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1844738084}
   m_SourcePrefab: {fileID: 100100000, guid: a92815a8b65ad484898d550fec97bc10, type: 3}
 --- !u!1001 &1039554305
 PrefabInstance:
@@ -906,6 +912,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6662760712513753879, guid: a92815a8b65ad484898d550fec97bc10, type: 3}
   m_PrefabInstance: {fileID: 447004252}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1475633489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475633487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bec2e8e0496604c8ba5a5485be7ebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxFlipDegrees: 90
+  flipperKeyCode: 275
+  angle: -10
 --- !u!1 &1549988122 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 728403717205316144, guid: a8f8321269768fb499f780675ab49eba, type: 3}
@@ -1066,6 +1087,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6662760712513753879, guid: a92815a8b65ad484898d550fec97bc10, type: 3}
   m_PrefabInstance: {fileID: 773398263}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1844738084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844738082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bec2e8e0496604c8ba5a5485be7ebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxFlipDegrees: 90
+  flipperKeyCode: 276
+  angle: 10
 --- !u!1001 &1429690616345576245
 PrefabInstance:
   m_ObjectHideFlags: 0

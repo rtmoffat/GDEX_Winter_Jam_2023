@@ -22,6 +22,14 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (leftFlipperRotationContainer_obj != null)
+        {
+            leftFlipperRotationOriginalPosition_V3 = leftFlipperRotationContainer_obj.transform.rotation.eulerAngles;
+        }
+        if (rightFlipperRotationContainer_obj != null)
+        {
+            rightFlipperRotationOriginalPosition_V3 = rightFlipperRotationContainer_obj.transform.rotation.eulerAngles;
+        }
         //Kick the ball into motion
         //only do this if the ball exists
         if (ball)
@@ -40,17 +48,28 @@ public class GameController : MonoBehaviour
         {
             Application.Quit();
         }
+
         //Keep camera initial rotation
         m_Camera.transform.rotation = m_Camera_Rotation;
-        if (Input.GetKey(KeyCode.LeftArrow) & (leftFlipperRotationOriginalPosition_V3.z >= leftFlipperRotationContainer_obj.transform.rotation.eulerAngles.z))
-            {
-            print("Left flipper pressed");
-            
-            leftFlipperRotationContainer_obj.transform.Rotate(flipperRotation_V3 * Time.deltaTime*flipperRotationSpeed);
+
+        //Flipper controls
+        /*
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            Vector3 destination = new Vector3(0, 0, -30);
+            leftFlipperRotationContainer_obj.transform.eulerAngles = Vector3.Lerp(leftFlipperRotationContainer_obj.transform.rotation.eulerAngles,
+                                                 destination,
+                                                 Time.deltaTime);
         }
-        if (Input.GetKeyUp(KeyCode.LeftArrow) & (leftFlipperRotationOriginalPosition_V3.z < leftFlipperRotationContainer_obj.transform.rotation.eulerAngles.z)) {
-            leftFlipperRotationContainer_obj.transform.Rotate(leftFlipperRotationOriginalPosition_V3 * Time.deltaTime * flipperRotationSpeed);
+        
+        if (Input.GetKeyUp(KeyCode.LeftArrow))
+        {
+            Vector3 destination = new Vector3(0, 0, -30);
+            leftFlipperRotationContainer_obj.transform.eulerAngles = Vector3.Lerp(leftFlipperRotationContainer_obj.transform.rotation.eulerAngles,
+                                                 destination,
+                                                 Time.deltaTime);
         }
+        */
     }
     private void LateUpdate()
     {
