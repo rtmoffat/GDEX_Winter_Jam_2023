@@ -34,8 +34,6 @@ public class GameController : MonoBehaviour
         //only do this if the ball exists
         if (ball)
         {
-            m_RigidBody2D = ball.GetComponent<Rigidbody2D>();
-            m_RigidBody2D.AddForce(m_RigidBody2D.transform.right * 1000.0f, ForceMode2D.Impulse);
             //Get initial camera rotation and don't change it. We only care about x/y axis.
             m_Camera_Rotation = m_Camera.transform.rotation;
         }
