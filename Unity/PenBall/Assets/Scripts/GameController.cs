@@ -11,25 +11,25 @@ public class GameController : MonoBehaviour
     Rigidbody2D m_RigidBody2D;
     public Camera m_Camera;
     
-    public GameObject leftFlipperRotationContainer_obj;
+    /*public GameObject leftFlipperRotationContainer_obj;
     public GameObject rightFlipperRotationContainer_obj;
     private Vector3 leftFlipperRotationOriginalPosition_V3;
     private Vector3 rightFlipperRotationOriginalPosition_V3;
     private Vector3 flipperRotation_V3=new Vector3(0f, 0f, 50.0f);
-    private float flipperRotationSpeed=5.0f;
+    private float flipperRotationSpeed=5.0f;*/
 
     private Quaternion m_Camera_Rotation;
     // Start is called before the first frame update
     void Start()
     {
-        if (leftFlipperRotationContainer_obj != null)
+        /*if (leftFlipperRotationContainer_obj != null)
         {
             leftFlipperRotationOriginalPosition_V3 = leftFlipperRotationContainer_obj.transform.rotation.eulerAngles;
         }
         if (rightFlipperRotationContainer_obj != null)
         {
             rightFlipperRotationOriginalPosition_V3 = rightFlipperRotationContainer_obj.transform.rotation.eulerAngles;
-        }
+        }*/
         //Kick the ball into motion
         //only do this if the ball exists
         if (ball)
