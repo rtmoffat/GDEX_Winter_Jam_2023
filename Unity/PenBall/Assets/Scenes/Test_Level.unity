@@ -693,11 +693,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -41.31723
+      value: -23.714714
       objectReference: {fileID: 0}
     - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -46.390064
+      value: -58.257133
       objectReference: {fileID: 0}
     - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
       propertyPath: m_Motor.m_MotorSpeed
@@ -794,11 +794,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8323963880879662506, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
       propertyPath: maxRotationAngle
-      value: -45
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
+      propertyPath: m_Anchor.x
+      value: -0.37499174
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
+      propertyPath: m_Anchor.y
+      value: -0.06142976
       objectReference: {fileID: 0}
     - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
       propertyPath: m_UseMotor
@@ -806,15 +814,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -41.31723
+      value: 20.482338
       objectReference: {fileID: 0}
     - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -46.390064
+      value: -57.971462
       objectReference: {fileID: 0}
     - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
       propertyPath: m_Motor.m_MotorSpeed
       value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
+      propertyPath: m_AngleLimits.m_LowerAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8910194073962397066, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
+      propertyPath: m_AngleLimits.m_UpperAngle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8941919903141552309, guid: f074e41169cdc4749b9bbfec46f73bb2, type: 3}
       propertyPath: m_Name
