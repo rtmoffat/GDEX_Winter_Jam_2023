@@ -76,13 +76,13 @@ public class GameController : MonoBehaviour
     public void startGame()
     {
         
-        SceneManager.LoadScene("Level_1",LoadSceneMode.Single);
+        SceneManager.LoadScene("Test_Level",LoadSceneMode.Single);
         print("starting game");
     }
     public void testLevel()
     {
         print("loading test level");
-        SceneManager.LoadScene("Test_Level", LoadSceneMode.Single);
+        SceneManager.LoadScene("Level_1", LoadSceneMode.Single);
     }
     public void quitGame()
     {
