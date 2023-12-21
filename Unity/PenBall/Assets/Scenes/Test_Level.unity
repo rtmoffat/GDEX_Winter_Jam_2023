@@ -403,6 +403,107 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83753660356123242b7bab49b2b0adb9, type: 3}
+--- !u!1 &263344143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4295268018014662603, guid: 9bdeacb51b1e799459b8e9931259f2db, type: 3}
+  m_PrefabInstance: {fileID: 1780806269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &263344146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263344143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Parameter: Music
+  TriggerEvent: 1
+  Value: 2
+--- !u!114 &263344147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263344143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 824732983
+      Data2: 1238594376
+      Data3: -1768128382
+      Data4: -724489336
+    Path: event:/SFX/Ambience
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &263344149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263344143}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 0
+  UnloadEvent: 1
+  Banks:
+  - Master
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &263344150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 263344143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2142209070
+      Data2: 1246689457
+      Data3: -155140463
+      Data4: -1076057535
+    Path: event:/Music/Music
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &393552312
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1300,7 +1401,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4295268018014662603, guid: 9bdeacb51b1e799459b8e9931259f2db, type: 3}
       propertyPath: m_Name
-      value: MusicManager
+      value: AudioManager
       objectReference: {fileID: 0}
     - target: {fileID: 7219359539545854692, guid: 9bdeacb51b1e799459b8e9931259f2db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1345,7 +1446,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4295268018014662603, guid: 9bdeacb51b1e799459b8e9931259f2db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 263344149}
+    - targetCorrespondingSourceObject: {fileID: 4295268018014662603, guid: 9bdeacb51b1e799459b8e9931259f2db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 263344146}
+    - targetCorrespondingSourceObject: {fileID: 4295268018014662603, guid: 9bdeacb51b1e799459b8e9931259f2db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 263344147}
+    - targetCorrespondingSourceObject: {fileID: 4295268018014662603, guid: 9bdeacb51b1e799459b8e9931259f2db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 263344150}
   m_SourcePrefab: {fileID: 100100000, guid: 9bdeacb51b1e799459b8e9931259f2db, type: 3}
 --- !u!4 &1795841121 stripped
 Transform:
