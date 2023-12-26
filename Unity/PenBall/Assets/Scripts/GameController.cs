@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public GameObject ball=null;
-    Rigidbody2D m_RigidBody2D;
-    public Camera m_Camera;
+    //public GameObject ball=null;
+    //Rigidbody2D m_RigidBody2D;
+    //public Camera m_Camera;
     
     /*public GameObject leftFlipperRotationContainer_obj;
     public GameObject rightFlipperRotationContainer_obj;
@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour
     private Vector3 flipperRotation_V3=new Vector3(0f, 0f, 50.0f);
     private float flipperRotationSpeed=5.0f;*/
 
-    private Quaternion m_Camera_Rotation;
+    //private Quaternion m_Camera_Rotation;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,11 +32,11 @@ public class GameController : MonoBehaviour
         }*/
         //Kick the ball into motion
         //only do this if the ball exists
-        if (ball)
+        /*if (ball)
         {
             //Get initial camera rotation and don't change it. We only care about x/y axis.
             m_Camera_Rotation = m_Camera.transform.rotation;
-        }
+        }*/
     }
 
     // Update is called once per frame
@@ -48,7 +48,7 @@ public class GameController : MonoBehaviour
         }
 
         //Keep camera initial rotation
-        m_Camera.transform.rotation = m_Camera_Rotation;
+        //m_Camera.transform.rotation = m_Camera_Rotation;
 
         //Flipper controls
         /*
