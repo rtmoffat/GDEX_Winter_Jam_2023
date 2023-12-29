@@ -18,4 +18,14 @@ public class CameraController : MonoBehaviour
 
         transform.position = vector3;
     }
+    //add boundaries for camera
+    //add resolution code
+    // this will be in lateupdate
+    //render to texture to fix overview camera size
+    //penguin mask <---0---->
+    //break through ice
+    //paper/present wall
+    //location
+    //present delivery
+
 }

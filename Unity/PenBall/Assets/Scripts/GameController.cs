@@ -46,6 +46,11 @@ public class GameController : MonoBehaviour
         {
             Application.Quit();
         }
+        if(Input.GetKeyDown(KeyCode.Tab))
+        {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(currentSceneName);
+        }
 
         //Keep camera initial rotation
         //m_Camera.transform.rotation = m_Camera_Rotation;
