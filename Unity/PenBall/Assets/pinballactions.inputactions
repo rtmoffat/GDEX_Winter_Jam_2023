@@ -1,0 +1,74 @@
+{
+    "name": "pinballactions",
+    "maps": [
+        {
+            "name": "PinballActions",
+            "id": "2963fd22-b111-430a-b095-dc2c20d043d1",
+            "actions": [
+                {
+                    "name": "FlipLeft",
+                    "type": "Button",
+                    "id": "e309e68d-cee4-415d-900b-92ebc83198aa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FlipRight",
+                    "type": "Button",
+                    "id": "fa4a067a-27e7-4735-97a5-b2dd73013d8e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Launch",
+                    "type": "Button",
+                    "id": "3243cc0a-c129-4a77-a77c-c4fb7858b9c0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e653d312-468c-442d-bb00-d917ed976c66",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FlipLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b5af6e9-ce83-42cc-a320-b846b7ef4777",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FlipRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0045bb6-1ee9-42b4-9372-3c2b50dcceb1",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Launch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

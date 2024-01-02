@@ -14,9 +14,12 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 vector3 = new(target.transform.position.x, target.transform.position.y, -10f);
+        if (target != null)
+        {
+            Vector3 vector3 = new(target.transform.position.x, target.transform.position.y, -10f);
 
-        transform.position = vector3;
+            transform.position = vector3;
+        }
     }
     //add boundaries for camera
     //add resolution code
