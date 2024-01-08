@@ -14,7 +14,8 @@ public class PackageController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Initial update
+        Delivery_System_Controller.updateScore(scoreText, scoreImage);
     }
 
     // Update is called once per frame
@@ -26,6 +27,7 @@ public class PackageController : MonoBehaviour
     {
         Debug.Log("got the package!");
         Delivery_System_Controller.retrievedCount++;
+        Delivery_System_Controller.score += 500;
         Destroy(gameObject);
         Delivery_System_Controller.updateScore(scoreText,scoreImage);
     }

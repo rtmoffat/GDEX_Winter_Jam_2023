@@ -95,6 +95,8 @@ GameObject:
   - component: {fileID: 935891371983461614}
   - component: {fileID: 3467325163665560069}
   - component: {fileID: 3358524340309705150}
+  - component: {fileID: -5448923674325827689}
+  - component: {fileID: 2187920362475905489}
   m_Layer: 0
   m_Name: circle_bumper
   m_TagString: Untagged
@@ -180,3 +182,46 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.22
+--- !u!114 &-5448923674325827689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4809693155015992393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1868096633
+      Data2: 1256218197
+      Data3: -1134290260
+      Data4: 418548293
+    Path: event:/SFX/Launcher
+  Event: 
+  PlayEvent: 9
+  StopEvent: 0
+  AllowFadeout: 0
+  TriggerOnce: 0
+  Preload: 1
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &2187920362475905489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4809693155015992393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767e415eaa788384a9407cbd13b5ed9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

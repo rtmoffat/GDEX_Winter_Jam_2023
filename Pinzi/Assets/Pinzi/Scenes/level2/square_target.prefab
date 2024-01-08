@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6204928524872928731}
   - component: {fileID: 1017978618383687663}
   - component: {fileID: 7428439260157802314}
+  - component: {fileID: 6676839260136074207}
   m_Layer: 0
   m_Name: square_target_image
   m_TagString: Untagged
@@ -158,6 +159,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.42479497, y: 0.45594734}
   m_EdgeRadius: 0
+--- !u!114 &6676839260136074207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058480581923799222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1868096633
+      Data2: 1256218197
+      Data3: -1134290260
+      Data4: 418548293
+    Path: event:/SFX/Launcher
+  Event: 
+  PlayEvent: 9
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1616006880150833799
 GameObject:
   m_ObjectHideFlags: 0
