@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 838431b26743f564384418f5b7f9b65b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 190
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c90e1555a9ab8479c72ba8b6883d25
+      internalID: -1779167104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 194
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd99ff5e6aee09e48820c4f60eb018e7
+      internalID: 899857599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 194
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c62fee5ac07c041a94951f44173632
+      internalID: -1362709771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 169
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a7915378e27ff4f8b063bebb1eb93a
+      internalID: 2130400581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 177
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd244a243ddb85d4a8ee4f0293fe0479
+      internalID: -242394265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_5
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 177
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779510acfb0a9dd4cb52a31f11724636
+      internalID: 227051049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 147
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c2cf55798d9f94bbd6b07226337da1
+      internalID: 1339214620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 130
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ea0614f095a214e845bad343af9b3c
+      internalID: -1049270780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 129
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69d69e2c7bba5c40ac6d5196c5a773e
+      internalID: -864426195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 129
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c02a578456e8304b948041843428d59
+      internalID: -39901145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 129
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d38a41cf3cd5e4b9c75cd231ae302f
+      internalID: 211550169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 129
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e231ed7f84d70614e80147d2eb7aa829
+      internalID: -151917866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 129
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee40272356e0364387edeff3f25f69d
+      internalID: 1785738773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 88
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8534a9de535ea643818fa4604346552
+      internalID: -1769827416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 88
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6134055ec70bc47b325ed6426eb25b
+      internalID: 1590353109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 88
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8966f8f8f5f10c04cbb8763dfbd6cf72
+      internalID: -1839863324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 88
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f6f0a6153ad3d458a3a4b40e20edcc
+      internalID: 2051368346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_17
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 46
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717d4eecbfc9fae41a65efd4d5597748
+      internalID: -2077223136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_18
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 46
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52b8a81e3a05714487ead533c36797d
+      internalID: 1575457386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 46
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a598c8541003c564eae0bdcca5905128
+      internalID: -1660499361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 46
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3841ddfecba175146b245c8be36ad7e1
+      internalID: -475482517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 46
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e136586c4b6ba4cb09a910763f98f5
+      internalID: 503281683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_22
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 4
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acacf7647d54be4792ebd17fa784857
+      internalID: 75554145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_23
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 4
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77175b61f0df9f847b6982321b9d977f
+      internalID: -766187754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_24
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 4
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc60fd96a78919e43a78d170209c1927
+      internalID: -521799704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pause_unpause_winner_loose_bonusball_arrows_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 4
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415a4e6f1e88e39488eac711801ba2e7
+      internalID: -758344163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pause_unpause_winner_loose_bonusball_arrows_0: -1779167104
+      pause_unpause_winner_loose_bonusball_arrows_1: 899857599
+      pause_unpause_winner_loose_bonusball_arrows_10: 211550169
+      pause_unpause_winner_loose_bonusball_arrows_11: -151917866
+      pause_unpause_winner_loose_bonusball_arrows_12: 1785738773
+      pause_unpause_winner_loose_bonusball_arrows_13: -1769827416
+      pause_unpause_winner_loose_bonusball_arrows_14: 1590353109
+      pause_unpause_winner_loose_bonusball_arrows_15: -1839863324
+      pause_unpause_winner_loose_bonusball_arrows_16: 2051368346
+      pause_unpause_winner_loose_bonusball_arrows_17: -2077223136
+      pause_unpause_winner_loose_bonusball_arrows_18: 1575457386
+      pause_unpause_winner_loose_bonusball_arrows_19: -1660499361
+      pause_unpause_winner_loose_bonusball_arrows_2: -1362709771
+      pause_unpause_winner_loose_bonusball_arrows_20: -475482517
+      pause_unpause_winner_loose_bonusball_arrows_21: 503281683
+      pause_unpause_winner_loose_bonusball_arrows_22: 75554145
+      pause_unpause_winner_loose_bonusball_arrows_23: -766187754
+      pause_unpause_winner_loose_bonusball_arrows_24: -521799704
+      pause_unpause_winner_loose_bonusball_arrows_25: -758344163
+      pause_unpause_winner_loose_bonusball_arrows_3: 2130400581
+      pause_unpause_winner_loose_bonusball_arrows_4: -242394265
+      pause_unpause_winner_loose_bonusball_arrows_5: 227051049
+      pause_unpause_winner_loose_bonusball_arrows_6: 1339214620
+      pause_unpause_winner_loose_bonusball_arrows_7: -1049270780
+      pause_unpause_winner_loose_bonusball_arrows_8: -864426195
+      pause_unpause_winner_loose_bonusball_arrows_9: -39901145
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

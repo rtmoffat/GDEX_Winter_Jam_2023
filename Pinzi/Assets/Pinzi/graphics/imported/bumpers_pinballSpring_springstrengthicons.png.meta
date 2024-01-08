@@ -1,0 +1,1152 @@
+fileFormatVersion: 2
+guid: 52eb1fc053f884e4d8d822e98235d29f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 58
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042af1b3d78db8c4a9f857b9dfdd6665
+      internalID: -2002695846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 58
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0380451c021bb47a90293ef4ba4615
+      internalID: 700367448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 83
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f936ab190d98fc1428080afdf2eb1c80
+      internalID: 1988121998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 50
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b618f186f6075c4b85a7f6dfe383585
+      internalID: 1267905750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 86
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c351a6c3b0d3d049a7f0df2ada2aebf
+      internalID: 768055760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_5
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 71
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6695b7800b330694cbae6ba4e92db679
+      internalID: -1944301076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 75
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f66af974529bb4996bb8d5a9900cf4
+      internalID: -526446302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 50
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea0f8dbce734634c99e54e9bbaa758c
+      internalID: 315568808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 64
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1449e922a561147a9ff1d21500234f
+      internalID: -1625251374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c92adc9f041a874ba81eaa169036db5
+      internalID: 1216584228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 35
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbc2f1077c731a42b4975095f0fadc1
+      internalID: 219553710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_11
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 35
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5976f6f8080e3b45a14e12d0407bd83
+      internalID: -1178134216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 35
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d178d6edced0143b776076c58b370f
+      internalID: -1527186110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 35
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f39f390e87d404d94e1aa79a51fc18
+      internalID: -1813948253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 35
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db29bb2985ba9f640bc52e2b80945958
+      internalID: 1192860881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 35
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca15cc5663134f740bbdf32d30da1c40
+      internalID: 768727561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 35
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9263c4dc611321b4e96f5cf455fe5a32
+      internalID: 2031735984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 35
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5bc6c44fdcfc84988466f8bc17d491
+      internalID: 1253280355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 25
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98009a2f6cdb51c439a8fb9f4a8c5f61
+      internalID: 737488528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_19
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 25
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77b5fd15474bc342ad6ef2904d1b39e
+      internalID: -999044692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 25
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0237300da85b5f6479db8ebfc7eae944
+      internalID: 410287565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_21
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 25
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165c48ac4b241a444b3bcb47f62d1647
+      internalID: -1792055406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 25
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a621978286d7d6146a92e55c3220a138
+      internalID: -1346815753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 25
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3752c52e9726c6a4385195a662f85da3
+      internalID: -1065375625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 25
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35746a264f738da4bb249d17a3c4f544
+      internalID: 303806358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 25
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bbd9f0eb06ee24cbd9808d35292a9e
+      internalID: -1327505783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_26
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24f14fb035d62c4ca044668995dd198
+      internalID: -2023130682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_27
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4013bff661da9bb4eb55fa529da94e23
+      internalID: 926598125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_28
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1cd723a89f3e549a123cb51ea19b96
+      internalID: -792198674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8610e72098cbef488ad9e82c31fa763
+      internalID: 783725240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_30
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962afeb443648414aa81d2115552adaa
+      internalID: -259978930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_31
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d928400787fa9c64abd0c96d465e10c0
+      internalID: 337671727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_32
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c38617320d618459725a2044a3394b
+      internalID: 1134541679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_33
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566825b13ddb7b04595cb606f6b56c90
+      internalID: 1430422076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_34
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff9c89d427a0284ebce0783db11e5c0
+      internalID: 347583043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_35
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcf5339f047a2b40a163b78f3e7065c
+      internalID: 1906829828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90587fe95991ce04ca347625f8b543b6
+      internalID: 201644627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_37
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1423239c4fe1eb449950deeffaf72cc3
+      internalID: 1743933539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_38
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaae66db7cb4354ea7f740cdd8ecf7f
+      internalID: -520519796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_39
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafcdbc70b5968146a770289ae07f8ab
+      internalID: -246021608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_40
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851cf8268266de84a8fdd8a1ed7bbc17
+      internalID: -1083769588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_41
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efab6b2720414442acc7f48dd1ab5fc
+      internalID: 580398210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_42
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89a84b85129c88488500d3cc852a0ca
+      internalID: -550236488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_43
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f958f649aed69d4b9d75d3bcffeaed6
+      internalID: 985630394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_44
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7706b5c8a9b21664aaa39b9ca5b69ae7
+      internalID: -1425709743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bumpers_pinballSpring_springstrengthicons_45
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c78010f20e75849ae9f869d80c90e6
+      internalID: -1847594919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bumpers_pinballSpring_springstrengthicons_0: -2002695846
+      bumpers_pinballSpring_springstrengthicons_1: 700367448
+      bumpers_pinballSpring_springstrengthicons_10: 219553710
+      bumpers_pinballSpring_springstrengthicons_11: -1178134216
+      bumpers_pinballSpring_springstrengthicons_12: -1527186110
+      bumpers_pinballSpring_springstrengthicons_13: -1813948253
+      bumpers_pinballSpring_springstrengthicons_14: 1192860881
+      bumpers_pinballSpring_springstrengthicons_15: 768727561
+      bumpers_pinballSpring_springstrengthicons_16: 2031735984
+      bumpers_pinballSpring_springstrengthicons_17: 1253280355
+      bumpers_pinballSpring_springstrengthicons_18: 737488528
+      bumpers_pinballSpring_springstrengthicons_19: -999044692
+      bumpers_pinballSpring_springstrengthicons_2: 1988121998
+      bumpers_pinballSpring_springstrengthicons_20: 410287565
+      bumpers_pinballSpring_springstrengthicons_21: -1792055406
+      bumpers_pinballSpring_springstrengthicons_22: -1346815753
+      bumpers_pinballSpring_springstrengthicons_23: -1065375625
+      bumpers_pinballSpring_springstrengthicons_24: 303806358
+      bumpers_pinballSpring_springstrengthicons_25: -1327505783
+      bumpers_pinballSpring_springstrengthicons_26: -2023130682
+      bumpers_pinballSpring_springstrengthicons_27: 926598125
+      bumpers_pinballSpring_springstrengthicons_28: -792198674
+      bumpers_pinballSpring_springstrengthicons_29: 783725240
+      bumpers_pinballSpring_springstrengthicons_3: 1267905750
+      bumpers_pinballSpring_springstrengthicons_30: -259978930
+      bumpers_pinballSpring_springstrengthicons_31: 337671727
+      bumpers_pinballSpring_springstrengthicons_32: 1134541679
+      bumpers_pinballSpring_springstrengthicons_33: 1430422076
+      bumpers_pinballSpring_springstrengthicons_34: 347583043
+      bumpers_pinballSpring_springstrengthicons_35: 1906829828
+      bumpers_pinballSpring_springstrengthicons_36: 201644627
+      bumpers_pinballSpring_springstrengthicons_37: 1743933539
+      bumpers_pinballSpring_springstrengthicons_38: -520519796
+      bumpers_pinballSpring_springstrengthicons_39: -246021608
+      bumpers_pinballSpring_springstrengthicons_4: 768055760
+      bumpers_pinballSpring_springstrengthicons_40: -1083769588
+      bumpers_pinballSpring_springstrengthicons_41: 580398210
+      bumpers_pinballSpring_springstrengthicons_42: -550236488
+      bumpers_pinballSpring_springstrengthicons_43: 985630394
+      bumpers_pinballSpring_springstrengthicons_44: -1425709743
+      bumpers_pinballSpring_springstrengthicons_45: -1847594919
+      bumpers_pinballSpring_springstrengthicons_5: -1944301076
+      bumpers_pinballSpring_springstrengthicons_6: -526446302
+      bumpers_pinballSpring_springstrengthicons_7: 315568808
+      bumpers_pinballSpring_springstrengthicons_8: -1625251374
+      bumpers_pinballSpring_springstrengthicons_9: 1216584228
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
